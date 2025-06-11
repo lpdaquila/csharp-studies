@@ -1,6 +1,6 @@
-﻿using CSharpConsoleStudies.DataTypes;
+﻿using CSharpConsoleStudies.DataInputOutput;
+// using CSharpConsoleStudies.DataTypes;
 
-// FloatTypes.Print();
-// DateAndTime.Print();
-NullableTypes.Print();
-StringAndObjects.Print();
+// DataInputs.Inputs();
+// ArithmeticOperators.Operators();
+TypeInference.TypeInfer();
