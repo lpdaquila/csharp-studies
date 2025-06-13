@@ -20,7 +20,7 @@ class TypeInference
         // With type inference you can't do this things:
         // var test = null; // cannot assign a null
         // var x; // must assign some value
-        // var invoice, test; // cannot assign multiple variables 
+        // var invoice = 3, test = 6.4; // cannot assign multiple variables 
 
         System.Console.WriteLine($"Name: {n} age: {i} wage: {wage:c}");
 

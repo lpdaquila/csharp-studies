@@ -10,9 +10,17 @@ public class NullableTypes
         // default value for 'int' is 0
 
         // Nullable<int> nl = null; // it can be simplified
-        // int? nl = null;
-        // double? nl2 = null;
-        // bool? nl3 = null;
+        int? nl = null;
+        double? nl2 = null;
+        bool? nl3 = null;
+
+        Console.WriteLine($"{nl}, {nl2}, {nl3}");
+
+        // string name = null; // Alert of possible null reference, use 'string?'
+        // Console.WriteLine(name.ToLower()); // Object reference not set to an instance of an object
+
+        string? name = null;
+        Console.WriteLine(name?.ToLower());
 
         // nullable types cannot be assigned to non-nullable types
         int? a = null;

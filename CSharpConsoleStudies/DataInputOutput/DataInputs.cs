@@ -5,7 +5,7 @@ public class DataInputs
     public static void Inputs()
     {
         Console.WriteLine("what is your name? ");
-        string name = Console.ReadLine();
+        var name = Console.ReadLine();
 
         System.Console.WriteLine("what is your age ?");
         int age = Convert.ToInt32(Console.ReadLine());

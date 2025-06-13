@@ -1,6 +1,9 @@
 ﻿using CSharpConsoleStudies.DataInputOutput;
+using CSharpConsoleStudies.DataTypes;
 // using CSharpConsoleStudies.DataTypes;
 
 // DataInputs.Inputs();
-// ArithmeticOperators.Operators();
-TypeInference.TypeInfer();
+// ArithmeticOperators.UsingConsts();
+LogicalOperators.Ternary();
+// TypeInference.TypeInfer();
+// NullableTypes.Print();

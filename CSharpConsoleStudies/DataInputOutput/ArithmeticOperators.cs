@@ -27,4 +27,27 @@ class ArithmeticOperators
         // System.Console.WriteLine($"Module of x % y = {x % y}");
 
     }
+    public static void AttrOperators()
+    {
+        var x = 10;
+        x += 5;
+
+        System.Console.WriteLine(x);
+    }
+
+    public static void UsingConsts()
+    {
+        //
+        double raio, perimetro, area;
+        const double PI = 3.1415;
+
+        System.Console.WriteLine("Informe o raio do circulo");
+        raio = Convert.ToDouble(Console.ReadLine());
+
+        perimetro = 2 * PI * raio;
+        area = PI * raio * raio;
+
+        System.Console.WriteLine($"Perimetro => {perimetro}");
+        System.Console.WriteLine($"Area => {area}");
+    }
 }

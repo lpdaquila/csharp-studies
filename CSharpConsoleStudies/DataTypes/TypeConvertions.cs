@@ -1,5 +1,3 @@
-using System.Runtime.ConstrainedExecution;
-
 namespace CSharpConsoleStudies.DataTypes;
 
 public class TypeConvertions
